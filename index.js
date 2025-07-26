@@ -8,3 +8,13 @@ function product(x, y){
     return x*y;
 }
 console.log(product(a,b));
+
+function factorial(a){
+    if(a === 0)
+        return 1;
+    let res = 1;
+    while(a != 0){
+        res = res * a;
+        a-=1;
+    }
+}
