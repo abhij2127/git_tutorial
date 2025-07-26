@@ -8,3 +8,7 @@ function product(x, y){
     return x*y;
 }
 console.log(product(a,b));
+
+const palindrome = (s) =>{
+    return s;
+}
