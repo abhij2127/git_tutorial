@@ -1,3 +1,4 @@
+"use strict";
 let a = 1;
 let b = 2;
 function sum(x, y){
@@ -21,4 +22,8 @@ function factorial(a){
         res = res * a;
         a-=1;
     }
+}
+
+function divide( a,  b){
+    return a/b ;
 }
